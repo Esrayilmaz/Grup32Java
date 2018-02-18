@@ -4,13 +4,14 @@ import com.temelt.grup32java.ders4.KarekokAlgoritamasi;
 import com.temelt.grup32java.ders4.KullaniciIslemleri;
 import com.temelt.grup32java.ders5.OrtalamaHesaplama;
 import com.temelt.grup32java.ders5.SayiTahminOyunu;
+import com.temelt.grup32java.ders6.Diziler;
 
 public class Uygulama {
 
     public static void main(String[] args) {
 
-        OrtalamaHesaplama ortalamaHesaplama=new OrtalamaHesaplama();
-        ortalamaHesaplama.ondanBuyukOlanlar();
+        Diziler diziler=new Diziler();
+        diziler.stringMetodlari();
 
     }
 
