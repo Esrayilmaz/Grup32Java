@@ -5,13 +5,16 @@ import com.temelt.grup32java.ders4.KullaniciIslemleri;
 import com.temelt.grup32java.ders5.OrtalamaHesaplama;
 import com.temelt.grup32java.ders5.SayiTahminOyunu;
 import com.temelt.grup32java.ders6.Diziler;
+import com.temelt.grup32java.ders6.HastaIslemleri;
+import com.temelt.grup32java.ders6.Sifreleme;
+
+import java.util.Scanner;
 
 public class Uygulama {
 
     public static void main(String[] args) {
-
-        Diziler diziler=new Diziler();
-        diziler.stringMetodlari();
+        HastaIslemleri hastaIslemleri=new HastaIslemleri();
+        hastaIslemleri.deviceParser();
 
     }
 
