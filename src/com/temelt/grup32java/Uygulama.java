@@ -1,20 +1,12 @@
 package com.temelt.grup32java;
 
-import com.temelt.grup32java.ders4.KarekokAlgoritamasi;
-import com.temelt.grup32java.ders4.KullaniciIslemleri;
-import com.temelt.grup32java.ders5.OrtalamaHesaplama;
-import com.temelt.grup32java.ders5.SayiTahminOyunu;
-import com.temelt.grup32java.ders6.Diziler;
-import com.temelt.grup32java.ders6.HastaIslemleri;
-import com.temelt.grup32java.ders6.Sifreleme;
-
-import java.util.Scanner;
+import com.temelt.grup32java.ders7.Ornek;
 
 public class Uygulama {
 
     public static void main(String[] args) {
-        HastaIslemleri hastaIslemleri=new HastaIslemleri();
-        hastaIslemleri.deviceParser();
+        Ornek ornek=new Ornek();
+        ornek.calistirma();
 
     }
 
