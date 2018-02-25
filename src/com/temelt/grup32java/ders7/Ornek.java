@@ -1,6 +1,8 @@
 package com.temelt.grup32java.ders7;
 
 
+import com.temelt.grup32java.desr8.MyCustomType;
+
 import javax.swing.*;
 import java.util.ArrayList;
 import java.util.Arrays;

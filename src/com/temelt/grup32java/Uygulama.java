@@ -1,12 +1,15 @@
 package com.temelt.grup32java;
 
 import com.temelt.grup32java.ders7.Ornek;
+import com.temelt.grup32java.desr8.Ders8;
+import com.temelt.grup32java.desr8.MyCustomType;
+import com.temelt.grup32java.desr8.SwCaseOrnek;
 
 public class Uygulama {
 
     public static void main(String[] args) {
-        Ornek ornek=new Ornek();
-        ornek.calistirma();
+        SwCaseOrnek swCaseOrnek=new SwCaseOrnek();
+        swCaseOrnek.yaziOrnegi();
 
     }
 
